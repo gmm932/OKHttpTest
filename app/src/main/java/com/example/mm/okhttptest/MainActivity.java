@@ -55,6 +55,8 @@ public class MainActivity extends Activity {
         if(response.isSuccessful()){
             System.out.println(response.code());
             System.out.println(response.body().string());
+            System.out.println(response.code());
+            System.out.println(response.body().string());
         }
     }
 
