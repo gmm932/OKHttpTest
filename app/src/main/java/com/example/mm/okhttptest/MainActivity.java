@@ -57,9 +57,13 @@ public class MainActivity extends Activity {
             System.out.println(response.body().string());
             System.out.println(response.code());
             System.out.println(response.body().string());
+            System.out.println("dfsdfsfsdf");
         }
     }
 
+    public void nn() {
+        System.out.println("dfsdfsfsdf");
+    }
     private void enqueue(){
         Request request = new Request.Builder()
                 .url("http://wazu.yunhomework.com/Data/GetDatabytype?id1=1&&id2=3&&id3=5&&p=1")
