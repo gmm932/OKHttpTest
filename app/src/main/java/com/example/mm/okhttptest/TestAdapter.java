@@ -18,4 +18,7 @@ public class TestAdapter extends mAdapter<Student> {
     public View getConvertView(int position, View convertView, ViewGroup parent) throws Exception {
         return null;
     }
+    public class ViewHolder {
+
+    }
 }
